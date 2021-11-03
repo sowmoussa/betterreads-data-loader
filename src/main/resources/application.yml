@@ -1,3 +1,8 @@
+spring.application.name: betterreads-data-loader
+
+datadump.location.author: <pwd>
+datadump.location.work: <pwd>
+
 spring:
   data:
     cassandra:
@@ -19,3 +24,4 @@ astra.db:
     region: us-west1
     keyspace: main
     application-token: <token>
+    
